@@ -1,0 +1,59 @@
+name: paperweft
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  dio: ^5.3.4
+  flutter_svg: ^2.0.5
+  sqflite: ^2.2.8+4
+  google_fonts: ^4.0.4
+  intl: ^0.18.1
+  animated_bottom_navigation_bar: ^1.3.0
+  auto_size_text: ^3.0.0
+  circular_reveal_animation: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+      - family: Roboto
+        fonts:
+          - asset: assets/fonts/Roboto-Regular.ttf
+            weight: 400
+          - asset: assets/fonts/Roboto-Medium.ttf
+            weight: 500
+          - asset: assets/fonts/Roboto-Bold.ttf
+            weight: 700
+      - family: Nunito
+        fonts:
+          - asset: assets/fonts/Nunito-Regular.ttf
+            weight: 400
+          - asset: assets/fonts/Nunito-Bold.ttf
+            weight: 700
+          - asset: assets/fonts/Nunito-ExtraBold.ttf
+            weight: 800
+
+  assets:
+      - assets/fonts/
+      - assets/image/
+      - assets/svg/
